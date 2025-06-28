@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sukanta Das - Senior IT Project Manager</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #f8f9fa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #e9ecef;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            color: #2c3e50;
+            margin-bottom: 5px;
+        }
+
+        .header .title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #34495e;
+            margin-bottom: 10px;
+        }
+
+        .contact {
+            font-size: 0.95rem;
+            color: #7f8c8d;
+        }
+
+        .contact a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        .section {
+            margin-bottom: 35px;
+        }
+
+        .section h2 {
+            font-size: 1.4rem;
+            color: #2c3e50;
+            border-bottom: 1px solid #bdc3c7;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        .summary {
+            font-size: 1rem;
+            line-height: 1.7;
+            color: #2c3e50;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .skill-category {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            border-left: 4px solid #3498db;
+        }
+
+        .skill-category h3 {
+            color: #2c3e50;
+            margin-bottom: 8px;
+            font-size: 1rem;
+        }
+
+        .skill-category p {
+            font-size: 0.9rem;
+            color: #555;
+        }
+
+        .job {
+            margin-bottom: 30px;
+            border-left: 3px solid #ecf0f1;
+            padding-left: 20px;
+        }
+
+        .job-header {
+            margin-bottom: 12px;
+        }
+
+        .job-title {
+            font-size: 1.1rem;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 2px;
+        }
+
+        .job-company {
+            font-size: 0.95rem;
+            color: #7f8c8d;
+            margin-bottom: 2px;
+        }
+
+        .job-duration {
+            font-size: 0.9rem;
+            color: #95a5a6;
+        }
+
+        .job-description {
+            margin-top: 10px;
+        }
+
+        .job-description p {
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+            line-height: 1.5;
+        }
+
+        .bold-word {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .education, .certifications {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            border-left: 4px solid #27ae60;
+        }
+
+        .cert-item, .edu-item {
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        .cert-item:last-child, .edu-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e9ecef;
+            font-size: 0.85rem;
+            color: #95a5a6;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 25px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+            
+            .container {
+                box-shadow: none;
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Sukanta Das</h1>
+            <div class="title">Senior IT Project Manager</div>
+            <div class="contact">
+                <a href="mailto:sukantadas.nichi@gmail.com">sukantadas.nichi@gmail.com</a>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2>Professional Summary</h2>
+            <div class="summary">
+                Senior IT Project Manager with 18+ years managing complex projects for Fortune 500 companies including Mercedes-Benz AG, Deutsche Bank, and Microsoft. Experienced in leading remote international teams and delivering projects on time and within budget. Strong technical background in cloud infrastructure, enterprise systems, and automation, with expertise bridging technical solutions and business requirements.
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Core Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Project Management</h3>
+                    <p>Planning & execution, budget management, risk mitigation, stakeholder communication</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Technical</h3>
+                    <p>VMware, Windows Server, Linux, Azure cloud, VBScript automation, AI tools</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Leadership</h3>
+                    <p>Cross-functional team management, vendor relations, change management, mentoring</p>
+                </div>
+                <div class="skill-category">
+                    <h3>Methodologies</h3>
+                    <p>Agile/Scrum, DevOps, PRINCE2, incident management, continuous improvement</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Professional Experience</h2>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Senior Project Manager</div>
+                    <div class="job-company">Infosys, FTE (Contract via BTC Consulting) | Remote</div>
+                    <div class="job-duration">April 2021 - October 2023</div>
+                </div>
+                <div class="job-description">
+                    <p><span class="bold-word">Managed</span> five HPE NonStop system migrations for Mercedes-Benz AG across Germany, China, and US - all delivered on schedule and within budget</p>
+                    <p><span class="bold-word">Coordinated</span> parallel projects while maintaining quality and meeting tight deadlines</p>
+                    <p><span class="bold-word">Achieved</span> zero downtime during critical backup system migrations in Europe and South Africa</p>
+                    <p><span class="bold-word">Managed</span> annual vendor contracts and procurement processes, including complex software contract novations from Mercedes-Benz AG to Infosys</p>
+                    <p><span class="bold-word">Led</span> diverse international stakeholder teams in fully remote environment</p>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Senior Professional Emerging Practices</div>
+                    <div class="job-company">DXC Technology | Remote</div>
+                    <div class="job-duration">February 2017 - April 2021</div>
+                </div>
+                <div class="job-description">
+                    <p><span class="bold-word">Led</span> server build and decommissioning projects for Deutsche Bank, coordinating across multiple teams and shared resources</p>
+                    <p><span class="bold-word">Created</span> standardized decommissioning procedures, improving process consistency across teams</p>
+                    <p><span class="bold-word">Served</span> as Security Coordinator, conducting vulnerability scans (Nessus, Qualys) and coordinating remediation efforts</p>
+                    <p><span class="bold-word">Acted</span> as Change Assurance Manager, leading weekly Change Advisory Board meetings and enforcing change management processes</p>
+                    <p><span class="bold-word">Coordinated</span> between project managers, technical teams, and stakeholders to ensure successful project delivery</p>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Family Caregiver</div>
+                    <div class="job-company">Personal Leave</div>
+                    <div class="job-duration">July 2016 - January 2017</div>
+                </div>
+                <div class="job-description">
+                    <p>Took planned career break to provide full-time family care</p>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Service Delivery Lead DevOps</div>
+                    <div class="job-company">Microsoft IDC via Mindtree Consulting | Hyderabad, India</div>
+                    <div class="job-duration">October 2014 - June 2016</div>
+                </div>
+                <div class="job-description">
+                    <p><span class="bold-word">Led</span> 3-person DevOps support team for Microsoft's Visual Studio Team Services, deploying Azure infrastructure across global data centers</p>
+                    <p><span class="bold-word">Served</span> as Directly Responsible Individual (DRI) for high-severity incidents, managing incident response and service recovery</p>
+                    <p><span class="bold-word">Performed</span> root cause analysis after incidents and worked with development teams to address technical debt</p>
+                    <p><span class="bold-word">Led</span> Agile practices including daily stand-ups and sprint planning</p>
+                    <p>Prepared weekly service performance reports and presented insights in Live Site meetings</p>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Senior Analyst System Administration & Support</div>
+                    <div class="job-company">BA Continuum India Bank of America | Hyderabad, India</div>
+                    <div class="job-duration">March 2013 - September 2014</div>
+                </div>
+                <div class="job-description">
+                    <p><span class="bold-word">Managed</span> Windows server maintenance and disk space administration for Bank of America systems</p>
+                    <p><span class="bold-word">Ensured</span> compliance with security protocols while resolving system issues and maintaining uptime</p>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">IT Service Delivery Consultant</div>
+                    <div class="job-company">Hewlett-Packard Global Services | Bangalore, India</div>
+                    <div class="job-duration">May 2011 - March 2013</div>
+                </div>
+                <div class="job-description">
+                    <p><span class="bold-word">Managed</span> Windows server infrastructure for Marathon Oil across US, Russia, and Middle East</p>
+                    <p><span class="bold-word">Developed</span> VBScript automation tools that reduced printer-related tickets by 40% and system crashes by 30%</p>
+                    <p><span class="bold-word">Handled</span> high-severity incidents and coordinated server upgrades for 24/7 operations</p>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Systems Administrator</div>
+                    <div class="job-company">EMC Corporation | Bangalore, India</div>
+                    <div class="job-duration">December 2010 - April 2011</div>
+                </div>
+                <div class="job-description">
+                    <p><span class="bold-word">Provided</span> Windows server support for JPMorgan Chase, resolving critical issues in high-pressure 24/7 environment</p>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Systems Support Specialist</div>
+                    <div class="job-company">IBM India Pvt Ltd | Bangalore, India</div>
+                    <div class="job-duration">May 2006 - December 2010</div>
+                </div>
+                <div class="job-description">
+                    <p><span class="bold-word">Advanced</span> from customer support to global system administration role</p>
+                    <p><span class="bold-word">Served</span> as Incident Manager for AstraZeneca account, overseeing critical incidents and 24/7 shift operations</p>
+                    <p><span class="bold-word">Managed</span> server infrastructure supporting systems in 34 countries</p>
+                    <p><span class="bold-word">Automated</span> routine tasks using VBScript to improve operational efficiency</p>
+                </div>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div class="job-title">Customer Support Technical</div>
+                    <div class="job-company">Hinduja TMT (Covad) and Crux (VSNL)</div>
+                    <div class="job-duration">2003 - 2005</div>
+                </div>
+                <div class="job-description">
+                    <p><span class="bold-word">Provided</span> technical support for broadband and dial-up internet services to international customers</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Education</h2>
+            <div class="education">
+                <div class="edu-item"><strong>Bachelor of Arts (Honors) in English</strong> | University of Burdwan | 2000</div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Certifications</h2>
+            <div class="certifications">
+                <div class="cert-item"><strong>PRINCE2® Practitioner</strong> (May 2021)</div>
+                <div class="cert-item"><strong>Prompt Engineering for ChatGPT</strong> - Vanderbilt University, Coursera (Sep 2023)</div>
+                <div class="cert-item"><strong>ChatGPT Prompt Engineering for Developers</strong> - deeplearning.ai/OpenAI (Sep 2023)</div>
+            </div>
+        </section>
+<!--
+        <footer class="footer">
+            Last updated: June 28, 2025 | View source on <a href="https://github.com/sun-sunu/resume" target="_blank">GitHub</a>
+        </footer>
+    </div> -->
+</body>
+</html>
